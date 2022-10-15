@@ -14,4 +14,5 @@ You can only swap two digits at a time.
 ## Example program output
 
 Input number: 1234
+
 3421
