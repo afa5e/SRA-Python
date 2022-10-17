@@ -1,10 +1,15 @@
-product_id,product_name,price,colour
-0,apple,10,red
-1,banana,11,yellow
-2,pear,12,green
-3,orange,13,orange
-4,peach,14,pink
-5,cherry,15,red
-6,tomato,16,red
-7,starfruit,17,yellow
-8,lime,18,green
+product_id,product_name,price,aisle,quantity
+0,apple,1.99,fresh-produce,10
+1,banana,2.49,fresh-produce,10
+2,pear,3.49,fresh-produce,10
+3,orange,5.99,fresh-produce,10
+4,peach,5.99,fresh-produce,10
+5,cherry,6.99,fresh-produce,10
+6,tomato,9.99,fresh-produce,10
+7,starfruit,24.99,fresh-produce,10
+8,lime,4.49,fresh-produce,10
+9,potato-chips,2.99,snacks,10
+10,cola can,5.00,drinks,10
+11,cheddar,30.00,deli,10
+12,proscuitto,110,deli,10
+13,lolly snakes,5.00,snacks,10
