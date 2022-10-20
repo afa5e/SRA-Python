@@ -36,7 +36,7 @@ To calculate the total price, use "c"
 
 ##### Overview:
 The user can use the command s followed by the name of the item to 
-search for item names that contain the search term. If a product is 
+search for item names that matches the search term. If a product is 
 found, print out the name, price and available quantity.
 
 If multiple items in the database contains the search term, print them all out in a list with their prices and quantities.
@@ -47,13 +47,6 @@ If multiple items in the database contains the search term, print them all out i
 ```
 s apple
 apple: 10 in stock
-```
-
-###### Multiple matches:
-```
-s an
-banana: 10 in stock
-orange: 10 in stock
 ```
 
 ###### No matches:
