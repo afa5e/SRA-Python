@@ -9,5 +9,5 @@ data = pd.read_csv('../data/data.csv')
 sql = lambda q: sqldf(q, globals())
 
 # Select everything from the DF, this should output the same as print(data)
-query = sql("SELECT AVG(price) FROM data WHERE price <= 3")
+query = sql("SELECT * FROM data")
 print(query)
