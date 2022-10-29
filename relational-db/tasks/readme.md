@@ -114,4 +114,12 @@ Price: 3
 0        2.49
 ```
 
-## Task 6 - Count
+## Task 6 - Counting
+
+Find the number of products that belong in the fresh produce section.
+
+### Correct output:
+```
+   COUNT(product_name)
+0                    9
+```
