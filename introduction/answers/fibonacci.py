@@ -2,9 +2,12 @@ i = 0
 first = 0
 second = 1
 
+print("Input number: ", end = "")
+number = input()
+
 print(first)
 
-while i < 5:
+while i < int(number):
     first = first + second
     second = first - second
 
