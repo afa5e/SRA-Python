@@ -3,8 +3,11 @@
 Relational databases allow us to access data in a table, similarly to 
 spreadsheets, but with commands such as "SELECT * from DATA". 
 
+## First task
 
-## Task: Store inventory and ordering database
+Create SQL queries to solve the problems in the tasks folder.
+
+## Extension task: Store inventory and ordering database
 
 Your task for this week is to design a database system that can record
 the current inventory in a store and implement a system which the user 
