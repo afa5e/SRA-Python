@@ -53,5 +53,16 @@ img.save("output.bmp")
 
 ### Chessboard
 Using the example code above, change the size variable and the condition in the if statement to create a chessboard pattern.
+<img src="examples/chess.jpg" height=500px />
 
-<img src="examples/chess.bmp" height=500px />
+### Boxes
+Create the following image with a size of 17px by 17px. Your code should work with any square canvas size with odd side lengths.
+<img src="examples/boxes.jpg" height=500px />
+
+### Tiles
+Create the following image with a size of 21px by 21px. Your code should work with any square canvas size with odd side lengths.
+<img src="examples/tiles.jpg" height=500px />
+
+### Spiral
+Create the following image with a size of 17px by 17px. Your code should work with any square canvas size with odd side lengths.
+<img src="examples/spiral.jpg" height=500px />
