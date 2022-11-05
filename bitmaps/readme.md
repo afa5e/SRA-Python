@@ -54,4 +54,4 @@ img.save("output.bmp")
 ### Chessboard
 Using the example code above, change the size variable and the condition in the if statement to create a chessboard pattern.
 
-<img src="examples/chess.bmp" height=500px />
+<img src="examples/chess.jpg" height=500px />
