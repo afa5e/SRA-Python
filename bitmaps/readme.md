@@ -17,7 +17,7 @@ Under the packages tab on the left, search for ```Pillow``` and install the firs
 ### Importing PIL into your python project
 For this week, we will only need the ```Image``` module. To do this, we add ```import PIL.Image``` to the beginning of your python file.
 
-### Creating your image
+## Creating your image
 
 1. Import PIL.Image with ```import PIL.Image```
 2. Define a size variable and assign a value according to the question.
@@ -36,8 +36,9 @@ For this week, we will only need the ```Image``` module. To do this, we add ```i
 ```
 import PIL.Image
 
+size = 25
 # PIL accesses images in Cartesian co-ordinates, so it is Image[columns, rows]
-img = PIL.Image.new('RGB', (25, 25), "black")  # create a new black image
+img = PIL.Image.new('RGB', (size, size), "black")  # create a new black image
 pixels = img.load()  # create the pixel array
 
 for i in range(img.size[0]):  # For every col:
@@ -47,3 +48,10 @@ for i in range(img.size[0]):  # For every col:
 
 img.save("output.bmp")
 ```
+
+## Tasks
+
+### Chessboard
+Using the example code above, change the size variable and the condition in the if statement to create a chessboard pattern.
+
+![][examples/chess.bmp]
