@@ -120,7 +120,7 @@ A half adder circuit takes in two binary numbers and sums them together, returni
 | 0     | 1     | 1   | 0     |
 | 0     | 0     | 0   | 0     |
 
-#### Extension: Create all logic gates with only NAND gates 
+### Extension: Create all logic gates with only NAND gates 
 ##### Example: AND gate:
 ```python
 # Defining our AND logic gate
@@ -140,4 +140,4 @@ def AND(inputs):
     return output
 ```
 
-#### Extension: Create all logic gates with only NOR gates
+### Extension: Create all logic gates with only NOR gates
