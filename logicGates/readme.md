@@ -1,5 +1,7 @@
 # Logic Gates
 Logic gates are a visual representation of various boolean functions, allowing us to diagramatically design logic circuits. To simulate the circuits, we will be creating functions in python, taking in a list of inputs and returning a single output, or a list of outputs.
+## Template:
+[Template file](template.md)
 
 ## Example code:
 ```python
