@@ -122,6 +122,47 @@ A half adder circuit takes in two binary numbers and sums them together, returni
 | 0     | 1     | 1   | 0     |
 | 0     | 0     | 0   | 0     |
 
+### 3. Always on
+Create a circuit that will always return True, using your previous gates. Just returning True is not allowed. This circuit will only have one input.
+| Input | Output |
+|-------|--------|
+| 1     | 1      |
+| 0     | 1      |
+
+### 4. 3 inputs
+Create a three input AND gate using multiple AND gates. Then create a 3 input OR gate with OR gates.
+| Input | Input | Input | Output |
+|-------|-------|-------|--------|
+| 1     | 1     | 1     | 1      |
+| 1     | 1     | 0     | 0      |
+| 1     | 0     | 1     | 0      |
+| 0     | 1     | 1     | 0      |
+| 1     | 0     | 0     | 0      |
+| 0     | 1     | 0     | 0      |
+| 0     | 0     | 1     | 0      |
+| 0     | 0     | 0     | 0      |
+
+### 5. Double counter
+Given a list of four inputs, only return True if two or more are True.
+| Input | Input | Input | Input | Output |
+|-------|-------|-------|-------|--------|
+| 1     | 1     | 1     | 1     | 1      |
+| 1     | 1     | 1     | 0     | 1      |
+| 1     | 1     | 0     | 1     | 1      |
+| 1     | 1     | 0     | 0     | 1      |
+| 1     | 0     | 1     | 1     | 1      |
+| 1     | 0     | 1     | 0     | 1      |
+| 1     | 0     | 0     | 1     | 1      |
+| 1     | 0     | 0     | 0     | 0      |
+| 0     | 1     | 1     | 1     | 1      |
+| 0     | 1     | 1     | 0     | 1      |
+| 0     | 1     | 0     | 1     | 1      |
+| 0     | 1     | 0     | 0     | 0      |
+| 0     | 0     | 1     | 1     | 1      |
+| 0     | 0     | 1     | 0     | 0      |
+| 0     | 0     | 0     | 1     | 0      |
+| 0     | 0     | 0     | 0     | 0      |
+
 ### Extension: Create all logic gates with only NAND gates 
 ##### Example: AND gate:
 ```python
