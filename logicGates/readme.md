@@ -3,6 +3,9 @@ Logic gates are a visual representation of various boolean functions, allowing u
 ## Template:
 [Template file](template.py)
 
+## Simulator:
+[Simulator](https://circuitverse.org/simulator)
+
 ## Example code:
 ```python
 from itertools import product
