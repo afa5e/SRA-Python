@@ -2,7 +2,7 @@ from itertools import product
 
 ###############################################################################
 # Change this number to match the number of inputs                            # 
-NUMBER_OF_INPUTS = 2                                                          #
+NUMBER_OF_INPUTS = 1                                                          #
 ###############################################################################
 
 # Defining our AND logic gate
@@ -11,6 +11,12 @@ def AND(inputs):
         return True
     else:
         return False
+
+def NOT(inputs):
+    if inputs[0] == 1:
+        return 0
+    else:
+        return 1
 
 ###############################################################################
 # Add your code under this block                                              # 
@@ -40,15 +46,25 @@ def simulate(inputFunction):
         # Iterates through the list of outputs
         outputs = inputFunction(inputOption)
         i = 0
-        if type(outputs) != bool:
+        if type(outputs) == int or type(outputs) == bool:
+            if outputs == 1:
+                outputs = "True"
+            else:
+                outputs = "False"
+
+            print(outputs)
+        else:
             for outputValue in outputs:
+                if outputValue == 1:
+                    outputValue = "True"
+                else:
+                    outputValue = "False"
+
                 if i < len(outputs) - 1:
                     print(outputValue, end=", ")
                 else:
                     print(outputValue)
                 i += 1
-        else:
-            print(outputs)
 
 ###############################################################################
 # Change the name of the function inside "simulate" to the function           #
@@ -56,4 +72,4 @@ def simulate(inputFunction):
 ###############################################################################
 
 # Simulate the AND gate
-simulate(AND)
+simulate(NOT)
